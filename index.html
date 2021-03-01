@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>yo-gaスタジオ</title>
+    <style>
+        header{
+            background: url(images/main-bg.png) no-repeat top center;
+            background-size: cover;
+            height: 90vh;
+        }
+        .bg-yellow{
+            background-color: #F1C311;
+        }
+        .gradation{
+            background: linear-gradient(360.55deg, rgba(230, 92, 0, 0.222) 4.22%, rgba(249, 212, 35, 0.3) 38.45%, rgba(255, 255, 255, 0.09) 77.14%);
+            
+        }
+        .fm{
+            
+            font-family: 'Noto Serif JP', serif;
+        }
+        .fg{
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+    </style>
+</head>
+<body class="fg">
+    <header>
+        <h1><img class="p-5 " src="images/logo.png" alt="yo-gaスタジオロゴ"></h1>
+        <div class="flex justify-between">
+            <div class="main-text">
+                <h2><img class="px-5 w-full" src="images/main-text.png" alt="美容に健康にストレス解消に！"></h2>
+                <h2><img class="p-5 w-full" src="images/main-nayami.png" alt="美容に健康にストレス解消に！"></h2>
+
+            </div>
+            <div class="medal pr-32">
+
+                <p class="p-5"><img src="images/medal-1.png" alt=""></p>
+                <p class="p-5"><img src="images/medal-2.png" alt=""></p>
+            </div>
+            
+        </div>
+        
+    </header>
+    <section id="campaign">
+        <div class="bg-yellow pb-8">
+            <h2 class=""><img class="m-auto" src="images/contents-1-pc.png" alt="全国の店舗で体験受付中"></h2>
+            <div class="text-center px-10">
+                <button><img src="images/btn-lesson.png" alt="体験レッスンを予約する"></button>
+            </div>
+        </div>
+    </section>
+    <section id="trouble">
+        <div class="md:flex justify-center fm">
+            <div class="trouble-text my-auto md:px-24 md:w-1/2">
+                <h1 class="pb-5"><img src="images/contents-2-text.png" alt="美と健康をかなえる"></h1>
+                <p>ホットヨガを行うことで、骨盤調整・冷え性改善はもちろん、<br>
+                ダイエット・美肌・むくみ緩和・アンチエイジングなどの効果が期待できます</p>
+            </div>
+            <div class="trouble-img">
+                <img src="images/contents-2-img.png" alt="ヨガポーズ">
+            </div>
+        </div>
+        <div class="gradation">
+            <div class="px-10 md:flex">
+                <div class="trouble md:px-36">
+                    <img src="images/contents-2-nayami.png" alt="悩み・トラブル">
+                </div>
+                <ul class="md:w-1/3">
+                    <li class="pb-5">
+                        <h3 class="text-3xl"><i class="far fa-check-square text-red-600 text-base"></i> 汗をかいて余分な水分を排出</h3>
+                        <p class="text-xl">カラダを内側から温めて、全身のリンパ・血行の流れを良くしていきます。 余分な水分を排出してむくみも改善し、水太りを解消していきましょう。</p> 
+                    </li>
+                    <li class="pb-5">
+                        <h3 class="text-3xl"><i class="far fa-check-square text-red-600 text-base"></i> 筋肉をほぐしてしなやかなカラダに
+                        </h3>
+                        <p class="text-xl">温かい環境でヨガのポーズをとり、固くなった筋肉をほぐすことでしなやかなカラダをつくります。  固い筋肉に滞っていた老廃物を排出していきましょう。
+                        </p> 
+                    </li>
+                    <li class="pb-5">
+                        <h3 class="text-3xl"><i class="far fa-check-square text-red-600 text-base"></i> 脂肪が燃えやすい体質に</h3>
+                        <p class="text-xl">たくさんの汗をかくことで脂肪が燃焼されていきます。インナーマッスルを養い、 基礎代謝を上げていくことで、脂肪が燃えやすい体質をつくっていきましょう。</p> 
+                    </li>
+                    <li class="pb-5">
+                        <h3 class="text-3xl"><i class="far fa-check-square text-red-600 text-base"></i> ストレス解消に最適</h3>
+                        <p class="text-xl">ホットヨガはリラックス効果がとても高くストレス解消にオススメです。食事によって解消していたストレスを、ヨガで解消していきましょう。</p> 
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="bg-yellow pb-8">
+            <div class="text-center px-10">
+                <button><img src="images/btn-lesson.png" alt="体験レッスンを予約する"></button>
+            </div>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
