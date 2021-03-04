@@ -15,12 +15,12 @@
             background: url(images/main-bg.png) no-repeat top center;
             height: 90vh;
         }
-        @media screen and (min-width:1024px) { 
+        @media screen and (max-width:1024px) { 
             /*　画面サイズが480pxからはここを読み込む　*/
-        header{
-            
-            height: 70vh;
-        }
+                header{
+                    
+                    height: 70vh;
+                }
             
             }
         
@@ -43,7 +43,7 @@
         </style>
 </head>
 <body class="fg ">
-    <header class="bg-cover">
+    <header class="bg-cover lg:bg-contain">
         <div class="flex justify-between">
             <h1><img class="p-5 w-full" src="images/logo.png" alt="yo-gaスタジオロゴ"></h1>
             <div class="medal flex md:hidden">
